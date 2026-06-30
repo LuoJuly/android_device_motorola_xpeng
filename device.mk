@@ -102,6 +102,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.motorola
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 $(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touchscreen/primary/interpolation)
 
 # Inherit from vendor blobs
