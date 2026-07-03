@@ -38,7 +38,7 @@ AVIUM_MAINTAINER := LuoJuly
 # Soc model name
 AVIUM_SETTINGS_SOC_MODEL_NAME := Snapdragon 888 Plus
 # Device code name
-AVIUM_SETTINGS_DEVICE_CODENAME := Moto Edge S30 
+AVIUM_SETTINGS_DEVICE_CODENAME := Moto Edge S30
 
 # GMS
 # WITH_GMS is a boolean flag to indicate 
